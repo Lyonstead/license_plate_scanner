@@ -1,16 +1,28 @@
-# license_plate_scanner
+# License Plate Scanner App
 
-Flutter app to scan and extract license plate text accurately.
+A Flutter app to scan and extract license plate text accurately using device camera and OCR.
+
+## Features
+
+- 📷 Capture images using device camera
+- 🔤 Detect and extract license plate text
+- ⚙️ Uses Google ML Kit Text Recognition
+- 📱 Works on Android and iOS
+- 🧩 Easy to integrate into existing apps
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Android/iOS device or emulator
+- `google_mlkit_text_recognition` package
+- `image_picker` package
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/license-plate-scanner-flutter.git
+cd license-plate-scanner-flutter
